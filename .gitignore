@@ -38,3 +38,7 @@
 /Gemfile.lock
 /Gemfile.local
 
+
+# etf1 specifics
+bin
+vendor
