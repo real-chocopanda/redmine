@@ -1,5 +1,19 @@
 source 'https://rubygems.org'
 
+
+
+
+# e-tf1 specifics
+
+# As seen in http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Requirements
+# "make sure to install the C bindings for Ruby that dramatically improve performance. You can get them by running gem install mysql2"
+#
+ruby "1.9.2"
+gem "capistrano", "2.13.5"
+
+
+
+
 gem "rails", "3.2.13"
 gem "jquery-rails", "~> 2.0.2"
 gem "i18n", "~> 0.6.0"
