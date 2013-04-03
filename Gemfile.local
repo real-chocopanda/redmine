@@ -5,3 +5,4 @@
 #
 ruby "1.9.2"
 gem "capistrano", "2.13.5"
+gem "passenger"
