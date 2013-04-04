@@ -1,0 +1,3 @@
+[submodule "plugins/redmine_improved_searchbox"]
+	path = plugins/redmine_improved_searchbox
+	url = git://github.com/ries-tech/redmine_improved_searchbox.git
