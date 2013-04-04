@@ -41,3 +41,6 @@
 
 # etf1 specifics
 bin/*
+
+# For development only. For deployed releases, the matching path is shared/bundle
+vendor/bundle/*
