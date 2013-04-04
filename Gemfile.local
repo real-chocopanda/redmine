@@ -1,8 +1,7 @@
-# e-tf1 specifics
+# e-tf1 specific gem requirements
 
-# As seen in http://www.redmine.org/projects/redmine/wiki/RedmineInstall#Requirements
-# "make sure to install the C bindings for Ruby that dramatically improve performance. You can get them by running gem install mysql2"
-#
-ruby "1.9.2"
+# See README.md
+ruby "1.9.3"
+
 gem "capistrano", "2.13.5"
-gem "passenger"
+gem "passenger", "3.0.19"
