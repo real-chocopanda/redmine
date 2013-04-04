@@ -1,3 +1,6 @@
 [submodule "plugins/redmine_improved_searchbox"]
 	path = plugins/redmine_improved_searchbox
 	url = git://github.com/ries-tech/redmine_improved_searchbox.git
+[submodule "vendor/capitf1"]
+	path = vendor/capitf1
+	url = git@github.com:real-chocopanda/capitf1.git
