@@ -1,0 +1,13 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+
+#top-menu { background:#000; }
+#header {
+    /* see ../javascripts/theme.js for dynamically applied styles */
+    min-height:5.1em;
+    background-repeat: no-repeat;
+    background-scroll: scroll;
+    background-position: 0 -23px;
+}
+#header h1 { left:6px;font-size:small; position:absolute; }
+#main-menu li a:hover { background:#000; }

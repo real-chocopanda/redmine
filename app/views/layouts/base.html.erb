@@ -27,7 +27,14 @@
     <%= render_menu :top_menu if User.current.logged? || !Setting.login_required? -%>
 </div>
 
-<div id="header">
+
+
+<!-- etf1 hack start -->
+<!-- To set the background image, a redmine attachment is use and its id should be set in the project's configuration (field header-image-id) -->
+<div id="header"<%=raw (@project && attachment = CustomValue.first(:joins => :custom_field, :conditions => {'custom_fields.type' => 'ProjectCustomField', :customized_id => @project.id})) && ' style="background-image:url(/attachments/' + attachment.value + ')"' %>>
+<!-- etf1 hack end -->
+
+
     <% if User.current.logged? || !Setting.login_required? %>
     <div id="quick-search">
         <%= form_tag({:controller => 'search', :action => 'index', :id => @project}, :method => :get ) do %>
